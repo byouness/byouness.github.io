@@ -5,9 +5,9 @@ feature-img: "assets/img/ipywidgets/jupiter2.jpg"
 tags: [Python, Jupyter notebook, Matplotlib, Plotly, options]
 ---
 
-In this blog post, we will create an interactive options strategy payoff displayer.
+In this blog post, we will see how to add interactive plots in Jupyter notebooks using Ipy widgets.
 
-For this, we will use Jupyter notebooks, Ipywidgets, and plotting libraries Matplotlib and Plotly.
+As an example, we will create an interactive options strategy payoff displayer using Ipywidgets, Matplotlib and Plotly.
 
 ## Jupyter Notebooks
 
