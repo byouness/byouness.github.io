@@ -87,8 +87,7 @@ def plot_payoff(direction, option, strike):
     plt.show()
 ```
 
-Above, we used the Jupyter magic function `%matplotlib notebook` in order to set up Matplotlib to be used with the notebook backend[^1].
-[^1]: For more on Matplotlib's backends: [http://ipython.readthedocs.io/en/stable/interactive/plotting.html]
+Above, we used the Jupyter magic function `%matplotlib notebook` in order to set up Matplotlib to be used with the notebook backend (see [here](http://ipython.readthedocs.io/en/stable/interactive/plotting.html) for more info on matplotlib backends).
 
 Now, we simply call the `interact()` function on our plotting function, like we did with the hello world example:
 
