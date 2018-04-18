@@ -6,7 +6,7 @@ tags: [Jekyll, Github-pages, Markdown]
 ---
 
 The idea to create a blog where I would share some thoughts, tips and tutorials was in my mind for some time.
-After finally getting around to doing it, I thought the first post should, no! **must** be on how I did it to save some time to people in the same situation where I was.
+After finally getting around to doing it, I thought the first post should be on how I did it to save some time to people in the same situation where I was.
 
 ## Prerequisites
  
@@ -15,12 +15,12 @@ The idea is to host your website or blog on Github. It is free as long as you ag
 
 First, if you don't have a Github account, start by creating one here for free: https://github.com/ 
 
-Second, from your profile page, at __https://github.com/your_github_username__, click on the **Repositories** tab and clic new to create a new repository. Call it __your_github_username.github.io__.
+Second, from your profile page, at https://github.com/your_github_username, click on the *Repositories* tab and clic *new*. Call the new repository *your_github_username.github.io*.
 It is important to stick to this name so that Github can identify this repository as a website and not as an ordinary repository.
 
-Open your repository and add a file called __index.html__ containing the string **"Hello World!"**.
+Open your repository and add a file called *index.html* containing the string "Hello World!".
 
-Now, opening the url __your_github_username.github.io__ in your browser will display a blank webpage with **"Hello World!"**. Your blog is up and running!
+Now, opening the url https://your_github_username.github.io in your browser will display a blank webpage with "Hello World!". Your blog is up and running!
 
 ### Markdown
 Of course, a blog with just a "Hello World!" is not very interesting and you want to have more interesting content in your blog.
@@ -95,7 +95,7 @@ Usually, the structure of a simple Jekyll blog looks as follows:
 
 ```
 
-Here is a simplified description of the most important folders:
+Here is a simplified description of the most important files and folders:
 
 |File or folder | Description |
 | --------------|-----------------------------------------------------------------------|
@@ -111,7 +111,7 @@ Here is a simplified description of the most important folders:
 | --------------|-----------------------------------------------------------------------|
 |_site          | This is where the Jekyll generated site (HTML) will be located        |
 
-Once the blog is set up, you will edit only the content of the **_drafts** and **_posts** folders. The rest will either be handled by Jekyll, or stay static. 
+Once the blog is set up, you will edit only the content of the *_drafts* and *_posts* folders. The rest will either be handled by Jekyll, or stay static. 
 
 
 ### Format of a Jekyll blog post:
@@ -143,7 +143,7 @@ The content follows in markdown format. Usually, the template will contain examp
 Activating comments using [Disqus](https://disqus.com/) in your blog is very easy, all it takes is to:
  1. create an account on Disqus;
  2. register your website on Disqus;
- 2. and add a `comments` variable, set to `true` in of the YAML front matter of the posts for which you want to enable comments like this:
+ 2. and add a `comments` variable set to `true` in of the YAML front matter of the posts for which you want to enable comments like this:
 
 ```
 ---
