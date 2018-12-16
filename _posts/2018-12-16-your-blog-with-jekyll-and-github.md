@@ -148,6 +148,3 @@ title: My first blog post
 comments: true
 ---
 ```
-
-### Domain name, RSS, etc.
-Want to get a custom domain name, add RSS feeds, or activate Google Custom Search for your website, check this [excellent blog post](https://deanattali.com/2015/03/12/beautiful-jekyll-how-to-build-a-site-in-minutes/) by Dean Attali.
