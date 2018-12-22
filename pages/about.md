@@ -6,9 +6,12 @@ feature-img: "assets/img/pexels/computer2.jpeg"
 tags: [About]
 ---
 
-My blog where I share thoughts and tutorials around finance, data science, programming and math.
+I am Youness, a quantitative finance / counterparty credit risk professional living in Paris. 
 
-Powered by [Jekyll](http://jekyllrb.com/), and the [Type on Strap](https://github.io/sylhare/Type-on-Strap) theme.
+This is a blog where I share thoughts and tutorials about quantitative finance, data science, programming and other topics.
+
+For more info, or to get in touch, please refer to my [LinkedIn](https://www.linkedin.com/in/ybouisouden/), [QuantStackExchange](https://quant.stackexchange.com/users/26242/byouness) and [StackOverflow](https://stackoverflow.com/users/2699660/byouness) profiles.
+
 
 <!--
 ## Contact 

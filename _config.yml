@@ -9,18 +9,18 @@ theme_settings:
   avatar: #assets/img/submarine.png
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
-  description: "Blog about finance, data science and other random stuff..."
+  description: "Blog about quant finance, data science and more..."
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-     <p><b>Blog about finance, data science and other random stuff...</b></p>
+     <p><b>Blog about quant finance, data science and more...</b></p>
   header_text_feature_image: assets/img/pexels/abstract_painting.jpg
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
   # Icons
   rss: false  # Make sure you created a feed.xml with feed.xml layout
-  email_address: youness_bouisouden@hotmail.com
+  email_address:
   behance:
   bitbucket:
   dribbble:
