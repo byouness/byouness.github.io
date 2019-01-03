@@ -10,8 +10,7 @@ I am Youness, a quantitative finance / counterparty credit risk professional liv
 
 This is a blog where I share thoughts and tutorials about quantitative finance, data science, programming and other topics.
 
-For more info, or to get in touch, please refer to my [LinkedIn](https://www.linkedin.com/in/ybouisouden/), [QuantStackExchange](https://quant.stackexchange.com/users/26242/byouness) and [StackOverflow](https://stackoverflow.com/users/2699660/byouness) profiles.
-
+For more info, or to get in touch, please refer to my [LinkedIn](https://www.linkedin.com/in/ybouisouden/) and [StackExchange](https://stackexchange.com/users/3196603/byouness) profiles.
 
 <!--
 ## Contact 
