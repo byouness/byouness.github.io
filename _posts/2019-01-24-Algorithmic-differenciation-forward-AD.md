@@ -23,7 +23,7 @@ Algorithmic differentiation is a clever way to enrich our initial program $$F$$,
 
 It is used by all machine learning libraries such as Tensorflow, and PyTorch and is getting a lot of traction in finance due to the increasing complexity of the computations needed.
 
-Unlike numeric differentiation that computes an approximation of the derivative ($$f^\prime(x) \approx \frac{f(x+h) - f(x)}{h}$$ for $$h$$ sufficiently small, or even better: $$\frac{f(x+h) - f(x-h)}{2h}$$), algorithmic differentiation computes the exact derivative (up to floating point precision of course).
+Unlike numeric differentiation that computes an approximation of the derivative ($$f^\prime(x) \approx \frac{f(x+h) - f(x)}{h}$$, or even better: $$\frac{f(x+h) - f(x-h)}{2h}$$ for $$h$$ sufficiently small), algorithmic differentiation computes the exact derivative (up to floating point precision of course).
 
 In the general case, both the input and the output of the function are multidimensional.
 
