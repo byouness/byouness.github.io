@@ -300,7 +300,7 @@ For example, applying AD to some code computing numerically an integral of a fun
 
 As we have seen in this blog post, forward AD is adapted to getting directional derivatives: derivatives of all the outputs of the function w.r.t. one single input.
 
-If we want to compute the whole Jacobian matrix, forward AD is interesting if the number of outputs is larger than the number of inputs: $$m >> n$$ since it will give the whole matrix in $n$ sweeps.
+If we want to compute the whole Jacobian matrix, forward AD is interesting if the number of outputs is larger than the number of inputs: $$m >> n$$ since it will give the whole matrix in $$n$$ sweeps.
 
 But, what if $$n >> m$$, or if we need only the gradient of a single output of the function?
 
