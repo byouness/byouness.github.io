@@ -5,7 +5,7 @@ feature-img: "assets/img/pexels/cpu.jpg"
 tags: [Python, AD, AAD, Algorithmic differentiation, Operator overloading, Dual numbers]
 ---
 
-This blog post attempts to give an introduction to algorithmic differentiation. It tackles forward AD, while backward AD will be tackled in another one.
+This blog post attempts to give an introduction to algorithmic differentiation. It tackles forward AD, while backward AD will be the subject of another one.
 
 ## What is AD, and what is it for?
 
