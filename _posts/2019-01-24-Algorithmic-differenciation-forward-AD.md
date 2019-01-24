@@ -9,7 +9,7 @@ This blog post attempts to give an introduction to algorithmic differentiation. 
 
 ## What is AD, and what is it for?
 
-Let's consider a computer program that takes some inputs $$X$$, makes some computations and returns an output $$Y$$.
+Let's consider a computer program that takes some inputs $$X$$, makes some computations and returns some outputs $$Y$$.
 
 Mathematically speaking, this program is a function $$F$$ that is a composition of many functions representing the computation steps:
 
