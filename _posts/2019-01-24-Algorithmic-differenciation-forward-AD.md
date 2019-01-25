@@ -239,8 +239,8 @@ You can check that the value of the function should be $$(\frac{2}{3}, 8) = (0.6
 Similarly, if we need the derivative w.r.t. $$y$$, we simply set it's derivative to $$1$$ and that of $$x$$ to zero. This leads to:
 
 ```python
-x = ADfloat(4., 1.)
-y = ADfloat(2., 0.)
+x = ADfloat(3., 0.)
+y = ADfloat(2., 1.)
 print(f(x, y))
 #(0.6667, -0.7778)
 ```
