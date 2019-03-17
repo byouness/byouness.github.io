@@ -50,8 +50,8 @@ Algorithmic differentiation comes in two flavors:
 |--------------|---------------------------------|--------------|
 | AD type 	   | Computes in each run            | For our $$F$$  |
 |--------------|---------------------------------|--------------|
-| __Forward__                 ( __AD__ )  | a column of the Jacobian matrix | $$ (\frac{dF_k}{dx_j})_{1 \leq k \leq m}$$ for a fixed $$j$$ |
-| __Backward__ or __Adjoint__ ( __AAD__ ) | a row of the Jacobian matrix    | $$ (\frac{dF_k}{dx_j})_{1 \leq j \leq n}$$ for a fixed $$k$$ |
+| __Forward__                 ( __AD__ )  | a column of the Jacobian matrix (a.k.a a tangent) | $$ (\frac{dF_k}{dx_j})_{1 \leq k \leq m}$$ for a fixed $$j$$ |
+| __Backward__ or __Adjoint__ ( __AAD__ ) | a row of the Jacobian matrix (a.k.a. a gradient)| $$ (\frac{dF_k}{dx_j})_{1 \leq j \leq n}$$ for a fixed $$k$$ |
 
 Before explaining how each one works and how it could be implemented, let's go through some mathematics to help us grasp the theory behind, starting with the foundation of it all: the chain rule.
 
@@ -216,7 +216,7 @@ class ADfloat(object):
 Now, let's suppose that we want to compute both the value and derivatives of this simple function :
 
 $$
-	f(x, y) = \frac{(x+1)\times(x-y)}{x+y+1}
+	f(x, y) = \frac{(x + 1)\times(x - y)}{x + y + 1}
 $$
 
 We can define our function as we would do it for floats, but using `ADfloat` objects for constants:
@@ -234,13 +234,13 @@ y = ADfloat(2., 0.)
 print(f(x, y))
 #(0.6667, 0.7222)
 ```
-You can check that the value of the function should be $$(\frac{2}{3}, 8) = (0.6666..., 8)$$ and its derivative w.r.t. $$x$$ should be $$(\frac{13}{18}, 8) = (0.72222...., 8)$$, which is in line with what we got above.
+You can check that the value of the function should be $$\frac{2}{3} = 0.6666...$$ and its derivative w.r.t. $$x$$ should be $$\frac{13}{18} = 0.72222....$$, which is in line with what we got above.
 
 Similarly, if we need the derivative w.r.t. $$y$$, we simply set it's derivative to $$1$$ and that of $$x$$ to zero. This leads to:
 
 ```python
-x = ADfloat(3., 0.)
-y = ADfloat(2., 1.)
+x = ADfloat(4., 1.)
+y = ADfloat(2., 0.)
 print(f(x, y))
 #(0.6667, -0.7778)
 ```
