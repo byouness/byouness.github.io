@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: ""
-url: "http://byouness.com"
+url: "https://byouness.com"
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
