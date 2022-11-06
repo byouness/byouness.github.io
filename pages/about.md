@@ -6,7 +6,7 @@ feature-img: "assets/img/pexels/computer2.jpeg"
 tags: [About]
 ---
 
-I am Youness, a quantitative finance / counterparty credit risk professional living in Paris. 
+I am Youness, a quantitative finance professional living in Dubai. 
 
 This is a blog where I share thoughts and tutorials about quantitative finance, data science, programming and other topics.
 
