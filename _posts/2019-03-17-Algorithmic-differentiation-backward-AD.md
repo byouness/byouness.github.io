@@ -274,6 +274,7 @@ y.compute_derivative()
 ```
 
 We obtain the same values as in the previous post for the gradient:
+
 $$
 \begin{aligned}
   \nabla f (3,2) & = \left( \frac{\partial f}{\partial x}(3,2), \frac{\partial f}{\partial y}(3,2) \right) \\
